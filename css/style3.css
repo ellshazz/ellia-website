@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+    body
+        {
+            min-height: 100vh;
+            background: #DEC2CB;
+        }
+
+    .header
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            background: #C5B9CD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+    .logo
+        {
+            font-size: 32px;
+            color: #0c41a3b7;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+    .navbar a
+        {
+            position: relative;
+            font-size: 18px;
+            color: #0c41a3b7;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 10px;
+            padding: 6px 10px;
+            border-radius: 20px;
+        }
+
+    .navbar a:hover
+        {
+
+          background: #92a8d1;
+          color: #0c41a3b7;
+
+        }
+        
+    ul
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    ul,li
+        {
+            list-style: none;
+            margin-left: 20px;
+        }
+
+    #footer-div
+        {
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            padding: 5px;
+            background-color: none;
+            color: #0c41a3b7;
+            font-size: 20;
+        }
+    
+    div.scroll-container
+        {
+            background-color: #c5b9cd73;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 10px;
+            margin-top: 90px;
+        }
+
+    div.scroll-container img 
+        {
+            padding: 10px;
+        }
+    
+    div.scroll-container2
+        {
+            background-color: #c5b9cd73;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+    div.scroll-container2 img 
+        {
+            padding: 10px;
+        }
+    
+    div.scroll-container3
+        {
+            background-color: #c5b9cd73;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+    div.scroll-container3 img 
+        {
+            padding: 10px;
+        }
+    
+    div.scroll-container4
+        {
+            background-color: #c5b9cd73;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+    div.scroll-container4 img 
+        {
+            padding: 10px;
+        }

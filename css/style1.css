@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+    body
+        {
+            min-height: 100vh;
+            background: #DEC2CB;
+        }
+
+    .header
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            background: #C5B9CD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+    .logo
+        {
+            font-size: 32px;
+            color: #0c41a3b7;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+    .navbar a
+        {
+            position: relative;
+            font-size: 18px;
+            color: #0c41a3b7;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 10px;
+            padding: 6px 10px;
+            border-radius: 20px;
+        }
+
+    .navbar a:hover
+        {
+
+          background: #92a8d1;
+          color: #0c41a3b7;
+
+        }
+        
+    ul
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    ul,li
+        {
+            list-style: none;
+            margin-left: 20px;
+        }
+        
+    .text-box
+        {
+            position: absolute;
+            bottom: 8%;
+            background: none;
+            color: #672891;
+            padding: 40px;
+        }
+
+    .text-box p
+        {
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+    .text-box h1
+        {
+            font-size: 150px;
+            line-height: 160px;
+            margin-left: -10px;
+            text-shadow: 6px 4px 6px #67289188;
+        }
+
+    .text-box h3
+        {
+            font-size: 20px;
+            font-weight: 500;
+            text-shadow: 2px 2px #67289142;
+        }
+    
+    .text-box .row
+        {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+    .text-box a
+        {
+            color: #9759c0;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin-right: 20px;
+            border: 2px solid #577fc9;
+        }
+
+        img
+        {
+            float: right;
+            width: 610px;
+            height: 550px;
+            margin-top: 40px;
+        }

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+            *
+                {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: 'Poppins', sans-serif;
+                }
+
+            body
+                {
+                    min-height: 100vh;
+                    background: #DEC2CB;
+                }
+
+            .header
+                {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    padding: 20px 100px;
+                    background: #C5B9CD;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    z-index: 100;
+                }
+
+            .logo
+                {
+                    font-size: 32px;
+                    color: #0c41a3b7;
+                    text-decoration: none;
+                    font-weight: 700;
+                }
+
+            .navbar a
+                {
+                    position: relative;
+                    font-size: 18px;
+                    color: #0c41a3b7;
+                    font-weight: 500;
+                    text-decoration: none;
+                    margin-left: 10px;
+                    padding: 6px 10px;
+                    border-radius: 20px;
+                }
+
+            .navbar a:hover
+                {
+
+                  background: #92a8d1;
+                  color: #0c41a3b7;
+
+                }
+                
+            ul
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+            ul,li
+                {
+                    list-style: none;
+                    margin-left: 20px;
+                }
+
+            #footer-div
+                {
+                    width: 100%;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    text-align: center;
+                    padding: 5px;
+                    background-color: none;
+                    color: #0c41a3b7;
+                    font-size: 20;
+                }
+
+            table
+                {
+                    border-collapse: collapse;
+                    width: 70%;
+                    margin-left: 200px;
+                    margin-top: 10px;
+                }
+            
+            td, tr, th
+                {
+                    border: 1px solid rgb(194, 95, 181);
+                    border-collapse: collapse;
+                    color: #461864;
+                }
+
+            td, th 
+                {
+                    border: 1px solid #241f21;
+                    text-align: center;
+                    padding: 8px;
+                    font-weight: 50px;
+                }
+
+            tr:nth-child(even)
+                {
+                    background-color: #ee2a8f3d;
+                }
